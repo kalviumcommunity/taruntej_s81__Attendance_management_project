@@ -1,9 +1,10 @@
-package com.school;
-
+package  com.school;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to the Attendance System!");
-        // Initialize the attendance system
+        Student s = new Student("Laser");
+        Course c = new Course("Full Stack Developer");
+        s.displayDetails();
+        c.displayDetails();
+        
     }
 }
-
